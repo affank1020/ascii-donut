@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "ASCII Donut Lab",
-  description: "Shape, light and spin a live ASCII sculpture.",
+  description: "A large rotating ASCII donut floating in the dark.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
