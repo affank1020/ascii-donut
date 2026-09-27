@@ -1,5 +1,7 @@
 # ASCII Donut
 
+[![CI](https://github.com/affank1020/ascii-donut/actions/workflows/ci.yml/badge.svg)](https://github.com/affank1020/ascii-donut/actions/workflows/ci.yml)
+
 A rotating ASCII torus rendered in React and Next.js.
 
 ## Run locally
@@ -8,6 +10,19 @@ A rotating ASCII torus rendered in React and Next.js.
 npm install
 npm run dev
 ```
+
+## Quality checks
+
+```bash
+npm run lint
+npm run typecheck
+npm test
+npm run build
+```
+
+The GitHub Actions pipeline runs the same checks for every pull request and every
+push to `main`. Unit tests cover quaternion rotation, perspective projection,
+lighting, and frame generation for each supported shape.
 
 ## Rendering pipeline
 
